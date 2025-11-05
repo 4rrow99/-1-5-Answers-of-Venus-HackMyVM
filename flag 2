@@ -1,0 +1,14 @@
+Log in with ssh sophia@venus.hackmyvm.eu -p 5000, use ls and enter cat mission.txt to see challenge 2.
+After reading the challenge, use the command find / -name “enter the file name here” 2>/dev/null | xargs cat
+We can use that command because we know the name of the file (find / -name “ ”). 
+The 2>/dev/null part takes all the negative responses, showing only what we want.
+| determines the end of one command, becoming the beginning of another, and xargs cat opens the file we are looking for.
+Then we use exit and log in to the new account with the response, then we use cat flagz.txt to solve challenge 2.
+
+
+Entrar con ssh sophia@venus.hackmyvm.eu -p 5000, usas ls y ingresas con cat mission.txt para ver el desafío 2.
+Después de leer el desafío, usas el comando find / -name «aquí va el nombre del archivo» 2>/dev/null | xargs cat
+Podemos usar ese comando porque sabemos el nombre del fichero, (find / -name « ») 
+La parte 2>/dev/null toma todas las respuesta negativas mostrando solo lo que queremos.
+| determina el final de una orden, convirtiendose el inicio de otra y xargs cat abre el archivo que buscamos.
+Despues usamos exit y nos conectamos en la nueva cuenta con la respuesta, despues usamos cat flagz.txt para resolver el desafio 2
