@@ -1,0 +1,17 @@
+To start the  at HMVM, enter the following command in the terminal: ssh hacker@venus.hackmyvm.eu -p 5000. Then enter the password havefun!
+
+The first mission is discovered using the ls command, listing the files, then with cat mission.txt you will see what the challenge asks you to do.
+To find the answer, use ls -la, which shows a list of files with details, including hidden files. 
+If you do cat ... you will find a hidden flag, then just enter the flag in the flag section.
+If you do cat .myhiddenpazz  you will find sophia's password. Enter exit to start a new session as the user sophia. 
+ssh sophia@venus.hackmyvm.eu -p 5000 Enter the password, then type ls -la to see the files. Enter cat flagz.txt and you will see the flag for exercise 1.Venus lab
+
+
+Para iniciar el  en HMVM, introduzca el siguiente comando en la terminal: ssh hacker@venus.hackmyvm.eu -p 5000. A continuación, introduzca la contraseña havefun!
+
+La primera misión se descubre utilizando el comando ls, que muestra una lista de los archivos, y luego con cat mission.txt verás lo que te pide el desafío.
+Para encontrar la respuesta, utiliza ls -la, que muestra una lista de archivos con detalles, incluidos los archivos ocultos. 
+Si haces cat ... encontrarás una bandera oculta, luego solo tienes que introducir la bandera en la sección de banderas.
+Si ejecutas cat .myhiddenpazz, encontrarás la contraseña de sophia. Introduce exit para iniciar una nueva sesión como usuario sophia. 
+ssh sophia@venus.hackmyvm.eu -p 5000 Introduce la contraseña y, a continuación, escribe ls -la para ver los archivos. Introduce cat flagz.txt y verás la bandera del ejercicio 1. Laboratorio Venus
+
