@@ -1,0 +1,10 @@
+Enter ssh angela@venus.hackmyvm.eu -p 5000 
+Use ls and cat mission.txt to see the mission and the answer to challenge 2
+We use the command sed -n “4069p” findme.txt, sed -n is so that it only shows us the line we want, “  p” here goes the line we need and p is to print it
+findme.txt is the file where we look for the line we want
+
+
+Ingresar ssh angela@venus.hackmyvm.eu -p 5000 
+Usar ls y cat mission.txt para poder ver la mision y la respuesta del desafio 2
+Usamos el comando sed -n "4069p" findme.txt, sed -n es para que solo nos muestre la linea que queremos, "  p" aqui va la linea que nesecitamos y p que es para imprimirlo
+findme.txt es el archivo donde buscamos la linea que queremos
