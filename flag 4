@@ -1,0 +1,8 @@
+We enter ssh angela@venus.hackmyvm.eu -p 5000, then cat flagz.txt to see the answer to challenge 3, and cat mission.txt to see the current challenge.
+The file cannot be opened with cat, so we do it from the main path, which is cat /pwned/emma/- to access it.
+Then we disconnect with exit and start a new session with the new user to obtain the flag and mission 5.
+
+
+Ingresamos ssh angela@venus.hackmyvm.eu -p 5000, despues cat flagz.txt para ver la respuesta del desafio 3, y cat mission.txt para ver el desafio actual
+El archivo no se puede abrir con cat, entonces lo hacemos desde la ruta principal que es cat /pwned/emma/- para acceder 
+Despues nos desconectamos con exit e iniciamos cesion con el nuevo usario para obtener la bandera y mision 5
