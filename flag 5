@@ -1,0 +1,10 @@
+We enter ssh mia@venus.hackmyvm.eu -p 5000, cat flagz.txt, and cat mission.txt to see the previous response and the current challenge.
+It asks us to find the hereiam folder, so we use find / 2>/dev/null | grep “hereiam” to search for the folder from the root, discard the responses we don't want,
+and only search for the folder we want.
+It gives us the path /opt/hereiam/.here, so we just do cat /opt/hereiam/.here to see the password and start a new session to see the flag and the new mission
+
+
+Introducimos ssh mia@venus.hackmyvm.eu -p 5000, cat flagz.txt y cat mission.txt para ver la respuesta anterior y el desafío actual.
+Nos pide que encontremos la carpeta hereiam, así que usamos find / 2>/dev/null | grep «hereiam» para buscar la carpeta desde la raíz, descartar las respuestas que no queremos
+y buscar solo la carpeta que queremos.
+Nos da la ruta /opt/hereiam/.here así que solo tenemos que escribir cat /opt/hereiam/.here para ver la contraseña e iniciar una nueva sesión para ver la bandera y la nueva misión.
